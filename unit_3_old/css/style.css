@@ -1,0 +1,32 @@
+body {
+	background-color: orange;
+}
+
+h1 {
+	color: black;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+h2 {
+	color: green;
+	font-weight: lighter;
+	font-size: 24px;
+	text-align: left;
+}
+#second {
+	font-weight: bold;
+	font-align: left;
+}
+
+.important {
+	font-size: 10px;
+}
+
+p {
+	color: black;
+	font-weight: lighter;
+	font-size: 14px;
+	text-align: left;
+}
+

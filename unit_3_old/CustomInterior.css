@@ -1,0 +1,155 @@
+#customInteriorPage {
+	padding: 0 15px;
+}
+
+/* -----------------------------------
+	Typography
+--------------------------------------------------------------------------------------------- */
+#customInteriorPage,
+#customInteriorPage h1,
+#customInteriorPage h2,
+#customInteriorPage h3 {
+	font-family: Helvetica, arial, sans-serif;
+	color: #000;
+}
+
+#customInteriorPage h2 {
+	font-size: 26px;
+	font-weight: 400;
+	margin: 20px 0;
+}
+
+#customInteriorPage h3 {
+	font-size: 22px;
+	font-weight: 300;
+	margin: 20px 0;
+}
+
+#customInteriorPage p,
+#customInteriorPage ul li {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+/* -----------------------------------
+	Navigation Bar
+--------------------------------------------------------------------------------------------- */
+
+nav ul {
+	background-color: #000;
+	border-bottom: 3px solid #1f72e4;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 0px 23px;
+	transition: .1s ease;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	display: block;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+nav ul li:hover,
+nav ul li.current {
+	background-color: #fff;
+}
+
+nav ul li:hover a,
+nav ul li.current a {
+	color: #000;	
+}
+
+.is-sticky nav {
+	width: 100% !important;
+	left: 0;
+	box-shadow: 0px 0px 10px #222;
+}
+
+/* -----------------------------------
+	Links
+--------------------------------------------------------------------------------------------- */
+
+a:link,
+a:visited {
+	color: #4C4C4E;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;	
+}
+
+.customBtn a {
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	padding: 20px 0;
+    background-color: #1c62c5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#1c62c5, endColorstr=#1f72e4)";
+    background-image: -webkit-linear-gradient(#1c62c5, #1f72e4);
+    background-image: -moz-linear-gradient(#1c62c5, #1f72e4);
+    background-image: linear-gradient(#1c62c5, #1f72e4);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.customBtn a:hover {
+      background-color: #1f72e4;
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient (startColorstr=#1f72e4, endColorstr=#1c62c5)";
+      background-image: -webkit-linear-gradient(#1f72e4, #1c62c5);
+      background-image: -moz-linear-gradient(#1f72e4, #1c62c5);
+      background-image: linear-gradient(#1f72e4, #1c62c5); 	
+}
+/* -----------------------------------
+	Layout
+--------------------------------------------------------------------------------------------- */
+
+.highlightsList li {
+	list-style: none;
+}
+
+.highlightsList li:before {
+	content: '\f054';
+	font-family: "FontAwesome";
+	font-size: 10px;
+	margin: 0 5px 0 -10px;
+}
+
+#video.row {
+	margin-bottom: 0;
+}
+
+.BMWi3-VideoBG {
+	background: url('http://images.ebizautos.com/sites/8507/images/BMWi3_video_bg.jpg') top center;
+	padding: 40px;	
+}
+
+.BMWi3-VideoBG .video-wrapper {
+	margin: 0 auto;
+	width: 700px;
+}
+
+.BMWi3-VideoBG .video-wrapper .customBtn {
+	margin-top: 0px;
+}
+.appLinksWrapper {
+	padding-top: 40px;
+}
+
+.appLinksWrapper a {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
