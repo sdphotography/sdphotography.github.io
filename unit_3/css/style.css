@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+}
+h2 {
+	font-family: Helvetica;
+	font-variant-caps: titling-case;
+}
+body {
+  text-align: center;  
+  background-image: url("dragonfly.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: Helvetica;
+}
+
+#second {
+	font-size: 18px;
+	font-weight: lighter;
+	font-variant-caps: titling-case;
+}
+#important {
+	font-size: 10px;
+	font-weight: lighter;
+}
+h3 {
+	font-family: Times;
+	font-style: italic;
+}
+hr {
+  width: 200px;
+}
+p {
+  font-size: 10px;
+}
