@@ -1,0 +1,32 @@
+body { 
+	color: white;
+	background-color: blue;
+	text-align: center;
+}
+
+h1, h3 {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 24pt;
+}
+
+#second {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p {	
+	font-family: "Courier New", monospace;
+}
+
+a {
+	font-style: italic;
+	text-decoration: none;
+}
+
